@@ -1,0 +1,24 @@
+.skills {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.skills-flex {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    text-align: center;
+    max-width: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skill img {
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,19 @@
+.about-me {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.about-me-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    max-width: 300px;
+}

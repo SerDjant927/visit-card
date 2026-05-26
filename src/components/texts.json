@@ -1,0 +1,86 @@
+{
+  "en": {
+    "header": {
+      "title": "Hello! I'm Sergey Poroshin",
+      "subtitle": "Frontend Developer",
+      "description": "I create modern and responsive websites & web applications."
+    },
+    "buttons": {
+      "viewWork": "View My Work",
+      "contactMe": "Contact Me"
+    },
+    "about": {
+      "h2": "About Me",
+      "subtitle": "Passionate about coding and web design",
+      "description": "I am a frontend developer with over 5 years of experience in building interactive and user-friendly websites. I love turning ideas into reality using the latest web technologies.",
+      "cards": [
+        {
+          "title": "Experience",
+          "text": "5+ Years in Development"
+        },
+        {
+          "title": "Creative Problem Solver",
+          "text": ""
+        },
+        {
+          "title": "Fast & Efficient",
+          "text": ""
+        }
+      ]
+    },
+    "skills": {
+      "h2": "My Skills",
+      "description": "Technologies I work with",
+      "skillsList": [
+        "HTML5",
+        "JavaScript",
+        "React",
+        "Vue.js",
+        "SASS",
+        "Git"
+      ]
+    }
+  },
+  "ru": {
+    "header": {
+      "title": "Привет, я Сергей Порошин",
+      "subtitle": "Фронтенд разработчик",
+      "description": "Создаю современные и отзывчивые сайты и веб-приложения."
+    },
+    "buttons": {
+      "viewWork": "Посмотреть работы",
+      "contactMe": "Связаться со мной"
+    },
+    "about": {
+      "h2": "Обо мне",
+      "subtitle": "Увлечён кодингом и веб-дизайном",
+      "description": "Я фронтенд разработчик с опытом более 5 лет. Создаю интерактивные и удобные сайты. Люблю воплощать идеи в жизнь с помощью современных технологий.",
+      "cards": [
+        {
+          "title": "Опыт",
+          "text": "Более 5 лет в разработке"
+        },
+        {
+          "title": "Креативный решатель задач",
+          "text": ""
+        },
+        {
+          "title": "Быстрый и эффективный",
+          "text": ""
+        }
+      ]
+    },
+    "skills": {
+      "h2": "Мои навыки",
+      "description": "Технологии, с которыми я работаю",
+      "skillsList": [
+        "HTML5",
+        "JavaScript",
+        "React",
+        "Vue.js",
+        "SASS",
+        "Git"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.portfolio {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.portfolio-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    max-width: 300px;
+    text-align: center;
+}
