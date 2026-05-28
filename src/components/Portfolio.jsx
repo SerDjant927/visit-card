@@ -1,6 +1,11 @@
 import "./Portfolio.scss";
+import { useContext } from "react";
+import { LanguageContext } from "./LanguageContext";
+import texts from "./texts.json";
 
 const Portfolio = () => {
+    const { language } = useContext(LanguageContext);
+    const t = texts[language].portfolio;
     const projects = [
         { name: "E-Commerce Website", image: "/path-to-project1.jpg" },
         { name: "Dashboard Application", image: "/path-to-project2.jpg" },
@@ -9,8 +14,8 @@ const Portfolio = () => {
 
     return (
         <section className="portfolio">
-            <h2>Portfolio</h2>
-            <p>Some of my recent projects</p>
+            <h2>{t.h2}</h2>
+            <p>{t.description}</p>
             <div className="portfolio-grid">
                 {projects.map((project, index) => (
                     <div key={index} className="portfolio-item">

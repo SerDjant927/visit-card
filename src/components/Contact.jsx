@@ -1,14 +1,19 @@
 import "./Contact.scss";
+import { useContext } from "react";
+import { LanguageContext } from "./LanguageContext";
+import texts from "./texts.json";
 
 const Contact = () => {
+    const { language } = useContext(LanguageContext);
+    const t = texts[language].contacts;
     return (
         <section className="contact">
-            <h2>Get In Touch</h2>
+            <h2>{t.h2}</h2>
             <form className="contact-form">
-                <input type="text" placeholder="Your Name" />
-                <input type="email" placeholder="Email" />
-                <textarea placeholder="Message"></textarea>
-                <button type="submit" className="btn primary">Send Message</button>
+                <input type="text" placeholder={t.fields.name} />
+                <input type="email" placeholder={t.fields.email} />
+                <textarea placeholder={t.fields.message}></textarea>
+                <button type="submit" className="btn primary">{t.btnsend}</button>
             </form>
         </section>
     );

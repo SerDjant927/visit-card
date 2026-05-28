@@ -39,6 +39,19 @@
         "SASS",
         "Git"
       ]
+    },
+    "portfolio": {
+      "h2": "Portfolio",
+      "description": "Some of my recent projects"
+    },
+    "contacts": {
+    "h2":"Get In Touch",
+    "btnsend": "Send Message",
+      "fields":{
+        "name":"Your Name",
+        "email":"Email",
+        "message":"Message"
+        }
     }
   },
   "ru": {
@@ -81,6 +94,19 @@
         "SASS",
         "Git"
       ]
+    },
+    "portfolio": {
+      "h2": "Портфолио",
+      "description": "Примеры моих работ"
+    },
+    "contacts": {
+    "h2":"Написать мне",
+    "btnsend": "Отправить",
+     "fields":{
+      "name":"Ваше имя",
+      "email":"Email",
+      "message":"Введите сообщение"
+      }
     }
   }
 }
