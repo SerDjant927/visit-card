@@ -8,6 +8,10 @@ import reactIcon from "../assets/icons/skills/react.svg";
 import vueIcon from "../assets/icons/skills/vuejs.svg";
 import sassIcon from "../assets/icons/skills/sass.svg";
 import gitIcon from "../assets/icons/skills/gitlab.svg";
+import cssIcon from "../assets/icons/skills/css3.svg";
+import lessIcon from "../assets/icons/skills/less.svg";
+import phpIcon from "../assets/icons/skills/php.svg";
+import jqueryIcon from "../assets/icons/skills/jquery.svg";
 
 import "./Skills.scss";
 
@@ -16,7 +20,7 @@ const Skills = () => {
     const t = texts[language].skills;
 
     // Массив иконок в том же порядке, что и в JSON
-    const icons = [html5Icon, jsIcon, reactIcon, vueIcon, sassIcon, gitIcon];
+    const icons = [html5Icon, jsIcon, reactIcon, vueIcon, sassIcon, gitIcon, cssIcon, lessIcon, phpIcon, jqueryIcon];
 
     return (
         <section className="skills">
