@@ -11,7 +11,7 @@ const AboutMe = () => {
         <section className="about-me">
             <h2>{t.h2}</h2>
             <p className="subtitle">{t.subtitle}</p>
-            <p>{t.description}</p>
+            <p className="subtitle">{t.description}</p>
 
             <div className="about-me-cards">
                 {t.cards.map((card, index) => (

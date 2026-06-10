@@ -5,20 +5,18 @@ body {
   min-height: 100vh;
   font-family: 'Inter', sans-serif;
   background-color: var(--color-gray-1);
+  background-image:  linear-gradient(#444CF7 1px, transparent 1px), linear-gradient(90deg, #444CF7 1px, transparent 1px), linear-gradient(#444CF7 0.5px, transparent 0.5px), linear-gradient(90deg, #444CF7 0.5px, #E5E5F7 0.5px);
+  background-size: 25px 25px, 25px 25px, 5px 5px, 5px 5px;
+  background-position: -1px -1px, -1px -1px, -0.5px -0.5px, -0.5px -0.5px;
 }
 
 body * {
   box-sizing: border-box;
+
 }
 
 input,
 label,
 button {
   transition-duration: var(--transition-duration);
-}
-
-:focus-visible {
-  outline: 2px dashed var(--color-black);
-  outline-offset: 4px;
-  transition-duration: 0s !important;
 }

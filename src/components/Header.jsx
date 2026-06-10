@@ -38,9 +38,6 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="header-image">
-        <img src="/path-to-image.jpg" alt="Developer Illustration" />
-      </div>
     </header>
   );
 };

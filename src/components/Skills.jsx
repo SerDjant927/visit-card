@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { LanguageContext } from "./LanguageContext"; // путь подкорректируйте под ваш проект
+import { LanguageContext } from "./LanguageContext";
 import texts from "./texts.json";
 
 import html5Icon from "../assets/icons/skills/html5.svg";
@@ -12,6 +12,10 @@ import cssIcon from "../assets/icons/skills/css3.svg";
 import lessIcon from "../assets/icons/skills/less.svg";
 import phpIcon from "../assets/icons/skills/php.svg";
 import jqueryIcon from "../assets/icons/skills/jquery.svg";
+import gulpIcon from "../assets/icons/skills/gulp.svg";
+import nodejsIcon from "../assets/icons/skills/nodejs.svg";
+import tsIcon from "../assets/icons/skills/typescript.svg";
+import webpackIcon from "../assets/icons/skills/webpack.svg";
 
 import "./Skills.scss";
 
@@ -19,8 +23,7 @@ const Skills = () => {
     const { language } = useContext(LanguageContext);
     const t = texts[language].skills;
 
-    // Массив иконок в том же порядке, что и в JSON
-    const icons = [html5Icon, jsIcon, reactIcon, vueIcon, sassIcon, gitIcon, cssIcon, lessIcon, phpIcon, jqueryIcon];
+    const icons = [html5Icon, jsIcon, reactIcon, vueIcon, sassIcon, gitIcon, cssIcon, lessIcon, phpIcon, jqueryIcon, gulpIcon, nodejsIcon, tsIcon, webpackIcon];
 
     return (
         <section className="skills">
